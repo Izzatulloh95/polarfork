@@ -32,4 +32,35 @@
     text-decoration: none;
     display: flex;
     gap: 30px;
+=======
+.joha_box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.joha_card h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.joha_price {
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.joha_btn {
+    background: #D64374;
+    border: none;
+    padding: 15px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fafafa;
+    line-height: 100%;
+
 }
