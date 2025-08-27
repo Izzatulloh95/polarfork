@@ -1,12 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial;
 }
-.container{
+
+.container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+.vefa{
+    background-color: #F8EDF0;
+}
+.info_brownsugar {
+    
+   height: 544px;
+    display: flex;
+    align-items: center;
+    
+}
+.about{
+    width: 442px;
+height: 256px
+
+}
+.sugar_title {
+  
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 111.00000000000001%;
+
+}
+
+.sugar_text {
+margin-top: 16px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #150101;
+opacity: 60%;
+}
+.btn{
+    margin-top: 35px;
+background-color: #D64374;
+border: none;
+padding: 15px 40px;
+border-radius: 5px;
+color: #FAFAFA;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+cursor: pointer;
+
 }
