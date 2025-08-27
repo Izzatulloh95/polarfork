@@ -4,12 +4,80 @@
     box-sizing: border-box;
     font-family: Arial;
 }
-
 .container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+.samandar {
+    background-color: #f2ceda;
+}
+.nav_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav_link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    color: #150101;
+}
+.nav_link:hover {
+    color: #d23166;
+}
+.nav_btn {
+    background-color: #d23166;
+    padding: 15px 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fafafa;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.intro_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro_text_box {
+    width: 665px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: space-between;
+    align-items: start;
+}
+.intro_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 121%;
+}
+.intro_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.intro_btn {
+    background-color: #d23166;
+    padding: 15px 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fafafa;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .cards {
