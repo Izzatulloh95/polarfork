@@ -58,4 +58,97 @@
     text-align: center;
     margin: 0 26px 28px 26px;
     color: #000000;
+.vefa{
+    background-color: #F8EDF0;
+}
+.info_brownsugar {
+    
+   height: 544px;
+    display: flex;
+    align-items: center;
+    
+}
+.about{
+    width: 442px;
+height: 256px
+
+}
+.sugar_title {
+  
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 111.00000000000001%;
+
+}
+
+.sugar_text {
+margin-top: 16px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #150101;
+opacity: 60%;
+}
+.btn{
+    margin-top: 35px;
+background-color: #D64374;
+border: none;
+padding: 15px 40px;
+border-radius: 5px;
+color: #FAFAFA;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+cursor: pointer;
+
+.nav_logo {
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 100%;
+    color: #150101;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    width: 137px-677px-580px-681px;
+}
+
+.nav_list {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+.joha_box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.joha_card h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.joha_price {
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.joha_btn {
+    background: #D64374;
+    border: none;
+    padding: 15px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fafafa;
+    line-height: 100%;
+
 }
