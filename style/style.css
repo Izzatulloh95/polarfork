@@ -1,12 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial;
 }
-.container{
+
+.container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.nav_logo {
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 100%;
+    color: #150101;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    width: 137px-677px-580px-681px;
+}
+
+.nav_list {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
 }
